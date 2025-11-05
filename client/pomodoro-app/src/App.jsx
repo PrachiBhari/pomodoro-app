@@ -9,7 +9,7 @@ import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 import PrivateRoute from "./components/PrivateRoute.jsx";
 import { AuthProvider } from "./context/AuthContext";
-import { TasksProvider } from "./context/tasksContext.jsx";
+import { TasksProvider } from "./context/TasksContext.jsx";
 
 export default function App() {
   return (
