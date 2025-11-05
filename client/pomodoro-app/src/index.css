@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* quick theme hinting */
+.theme-work { background-color: #fff7f7; }
+.theme-break { background-color: #f6fffb; }
+svg circle {
+  transition: stroke-dashoffset 0.5s linear;
+}
